@@ -1,0 +1,79 @@
+body {
+  background: #787ca7; }
+
+.sticker {
+  padding-top: 20px;
+  background: #ffffff;
+  min-height: 100px;
+  min-width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #34b399;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+  .sticker:hover {
+    z-index: 1; }
+  .sticker .bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    background: #34b399;
+    width: 100%; }
+    .sticker .bar:hover {
+      cursor: move;
+      background: #4bd0b5; }
+  .sticker textarea {
+    padding: 3px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 100px;
+    min-width: 100px;
+    background: transparent;
+    border: none; }
+
+.button__add {
+  border: none;
+  position: absolute;
+  top: 2px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  background-image: url("../img/add.png"); }
+
+.button__delete {
+  border: none;
+  position: absolute;
+  top: 2px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/delete.png");
+  right: 5px; }
+
+.button__save {
+  border: none;
+  position: absolute;
+  top: 2px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/save.png");
+  left: 5px; }
