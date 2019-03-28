@@ -75,7 +75,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../img/save.png");
+  background-image: url("./img/save.png");
   left: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
