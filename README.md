@@ -3,4 +3,4 @@ Basic sticky notes you can create, save in local storage, in order to remember i
 
 Some upgrades are to be made, ex. different themes, text editor, different types of notes.
 
-**[LIVE PREVIEW](https://veronimineral.github.io/sticky-notes/)**
+###**[LIVE PREVIEW](https://veronimineral.github.io/sticky-notes/)**
